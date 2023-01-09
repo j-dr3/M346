@@ -6,7 +6,7 @@ Diese Azure Function ruft die 3rd-Party Weather API von OpenWeatherMap auf und g
 
 Die Azure Function kann über den folgenden Endpunkt aufgerufen werden:
 
-`https://<function_app>.azurewebsites.net/api/<function_name>?city=<city>`
+`https://weather-jd.azurewebsites.net/api/Weather-Func?city=Berlin`
 
 Der city-Parameter ist erforderlich und gibt die Stadt an, für die das Wetter abgerufen werden soll.
 
@@ -14,7 +14,7 @@ Der city-Parameter ist erforderlich und gibt die Stadt an, für die das Wetter a
 
 Um das Wetter für London abzurufen, würde man die folgende URL aufrufen:
 
-`https://<function_app>.azurewebsites.net/api/<function_name>?city=London`
+`https://weather-jd.azurewebsites.net/api/Weather-Func?city=London`
 
 ## Beispielantwort
 
